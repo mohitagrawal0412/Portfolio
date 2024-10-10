@@ -26,7 +26,7 @@ const Education = () => {
                         <div className="container mx-auto w-full h-full">
                             <div className="relative wrap overflow-hidden p-10 h-full">
                                 <div
-                                    className="border-2-2 border-yellow-555 absolute h-full border"
+                                    className="border-2-2 border-white-555 absolute h-full border"
                                     style={{ right: '50%', border: `2px solid ${educationCOLORS.borders.primary}`, borderRadius: '1%' }}
                                 ></div>
                                 <div

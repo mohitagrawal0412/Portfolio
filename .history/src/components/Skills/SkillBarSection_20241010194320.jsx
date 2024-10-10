@@ -1,7 +1,7 @@
 // src/components/Skill/SkillBarSection.jsx
 import React from 'react';
 import SkillBar from './SkillBar'; // Corrected import
-import { skillBarCOLORS } from '../../constant'; // Import your constants
+import { skillBarCOLORS } from '../../constant'; // Import your skill bar colors
 
 const SkillBarSection = ({ skills }) => {
     return (
@@ -9,10 +9,8 @@ const SkillBarSection = ({ skills }) => {
             {skills.map((skill, index) => (
                 <div key={index} className="mb-4">
                     <div className="flex items-center justify-between">
-                        {/* Render the technology name with primary color from skillBarCOLORS */}
-                        <span style={{ color: skillBarCOLORS.text.primary }} className="font-medium">
-                            {skill.name}
-                        </span>
+                        {/* Render the technology name */}
+                        <span className="skillBarCOLORS font-medium">{skill.name}</span>
                         {/* Display the percentage */}
                         <span className="text-white">{skill.percentage}%</span>
                     </div>

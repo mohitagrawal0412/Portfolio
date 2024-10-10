@@ -1,0 +1,1 @@
+// technology icon color

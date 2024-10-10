@@ -5,7 +5,7 @@ import './Skill.css';
 import TechnologySection from './TechnologySection';
 import SkillSectionContainer from './SkillSectionContainer';
 import { selectSkills } from '../../redux/slice/skillSlice.js';
-import { TechnologyCOLORS } from '../../constant.js' // Import your constants
+import { TechnologyCOLORS } from '../../constants'; // Import your constants
 
 const Skill = () => {
     const skills = useSelector(selectSkills);
@@ -15,7 +15,7 @@ const Skill = () => {
             {/* Technologies Section */}
             <div className="md:flex mt-20 text-center ml-10 mr-10 md:ml-36 md:mr-36">
                 <div className="md:mr-20 md:w-1/3">
-                    <h1 className={`font-bold italic mb-10 text-${TechnologyCOLORS.text.primary}`}>Technology Skills</h1>
+                    <h1 className={`font-bold italic mb-10 text-${COLORS.text.primary}`}>Technology Skills</h1>
 
                     <div className="relative mt-10 text-left">
                         {/* Frontend Technologies */}

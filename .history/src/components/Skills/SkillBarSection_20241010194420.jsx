@@ -1,7 +1,7 @@
 // src/components/Skill/SkillBarSection.jsx
 import React from 'react';
 import SkillBar from './SkillBar'; // Corrected import
-import { skillBarCOLORS } from '../../constant'; // Import your constants
+import { skillBarCOLORS } from '../../constants'; // Import your constants
 
 const SkillBarSection = ({ skills }) => {
     return (

@@ -1,0 +1,7 @@
+.left-timeline {
+    justify-content: flex-start;
+}
+
+.right-timeline {
+    justify-content: flex-end;
+}

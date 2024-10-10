@@ -1,0 +1,19 @@
+.left-timeline {
+    justify-content: flex-start;
+    /* Align to the left */
+}
+
+.right-timeline {
+    justify-content: flex-end;
+    /* Align to the right */
+}
+
+.left-timeline>div {
+    text-align: right;
+    /* Right-align text for left timeline */
+}
+
+.right-timeline>div {
+    text-align: left;
+    /* Left-align text for right timeline */
+}

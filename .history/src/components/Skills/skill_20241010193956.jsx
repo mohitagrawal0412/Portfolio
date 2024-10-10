@@ -5,7 +5,7 @@ import './Skill.css';
 import TechnologySection from './TechnologySection';
 import SkillSectionContainer from './SkillSectionContainer';
 import { selectSkills } from '../../redux/slice/skillSlice.js';
-import { TechnologyCOLORS } from '../../constant.js' // Import your constants
+import { TechnologyCOLORS } from '../../constant'; // Import your constants
 
 const Skill = () => {
     const skills = useSelector(selectSkills);

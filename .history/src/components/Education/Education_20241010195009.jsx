@@ -9,7 +9,7 @@ const Education = () => {
             <div className="bg-black text-white py-8">
                 <div className="container mx-auto flex flex-col items-start md:flex-row my-12 md:my-24">
                     <div className="flex flex-col w-full sticky md:top-36 lg:w-1/3 mt-2 md:mt-12 px-8">
-                        <p className={`ml-2 ${educationCOLORS.text.primary}  text-white uppercase tracking-loose`}>Education</p>
+                        <p className={`ml-2 ${educationCOLORS.text.primary} uppercase tracking-loose`}>Education</p>
                         <p className="text-3xl md:text-4xl leading-normal md:leading-relaxed mb-2">My Educational Journey</p>
                         <p className="text-sm md:text-base text-gray-50 mb-4">
                             My education has been a transformative journey, guiding me from the basics of knowledge to the complexities of my field. It reflects my dedication to learning and my commitment to personal and professional growth. With each milestone, I have acquired skills and insights that have shaped my career and fueled my passion for continuous improvement.
@@ -17,7 +17,7 @@ const Education = () => {
 
                         <a
                             href="#"
-                            className={`bg-transparent mr-auto hover:bg-${educationCOLORS.text.primary} text-${educationCOLORS.text.primary} hover:text-white rounded shadow hover:shadow-lg py-2 px-4 border border-${educationCOLORS.text.secondary} hover:border-transparent`}
+                            className={`bg-transparent mr-auto hover:bg-${educationCOLORS.text.secondary} text-${educationCOLORS.text.secondary} hover:text-white rounded shadow hover:shadow-lg py-2 px-4 border border-${educationCOLORS.text.secondary} hover:border-transparent`}
                         >
                             Explore Now
                         </a>
@@ -40,9 +40,8 @@ const Education = () => {
                                             <p className={`mb-3 text-base ${educationCOLORS.text.secondary}`}>{edu.year}</p>
                                             <h4 className="mb-3 font-bold text-lg md:text-2xl">{edu.title}</h4>
                                             <p className="text-sm md:text-base leading-snug text-gray-50 text-opacity-100">
-                                                <span className="font-semibold">{edu.institution}</span><br />
-                                                {edu.description}
-
+                                            <span className="font-semibold">{edu.institution}</span><br />
+                                               
                                             </p>
                                         </div>
                                     </div>
