@@ -1,0 +1,61 @@
+/* Skill.css */
+
+/* Import Montserrat font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,700;1,200;1,700&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+}
+
+.seccion {
+    text-transform: uppercase;
+    transform: rotate(270deg);
+    transform-origin: 0 0;
+    top: 60%;
+    position: absolute;
+    /* Ensure the rotated text is positioned correctly */
+    font-size: 0.8rem;
+}
+
+@media (max-width: 768px) {
+    .seccion {
+        /* Adjust rotation or positioning for smaller screens if necessary */
+        transform: rotate(0deg);
+        transform-origin: center;
+        top: auto;
+        left: auto;
+        margin-top: 10px;
+    }
+}
+
+/* Optional: Adjust the circle icon positioning */
+.fa-circle {
+    color: #000;
+    /* Black color for circles */
+    width: 0.5rem;
+    height: 0.5rem;
+}
+
+/* Ensure images do not exceed their container */
+img {
+    object-fit: contain;
+}
+
+/* Responsive adjustments for the TechnologySection */
+@media (max-width: 768px) {
+    .ml-6 {
+        margin-left: 1.5rem;
+        /* Adjust as needed */
+    }
+
+    .space-x-16 {
+        gap: 1rem;
+        /* Adjust spacing for smaller screens */
+    }
+
+    .w-24 {
+        width: 6rem;
+        height: 6rem;
+    }
+}

@@ -1,0 +1,24 @@
+/* Skill.css */
+
+/* Import Montserrat font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,700;1,200;1,700&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+}
+
+.seccion {
+    text-transform: uppercase;
+    transform: rotate(270deg);
+    transform-origin: 0 0;
+    top: 60%;
+    position: absolute;
+    /* Ensure the rotated text is positioned correctly */
+}
+
+@media (max-width: 768px) {
+    .seccion {
+        /* Adjust rotation or positioning for smaller screens if necessary */
+    }
+}

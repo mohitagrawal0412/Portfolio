@@ -1,0 +1,22 @@
+/* .neon-line {
+    width: 100px;
+    height: 10px;
+    background-color: #000000;
+    border-radius: 50px;
+    box-shadow: 0 0 10px #ff00ff, 0 0 20px #ff00ff, 0 0 30px #ff00ff;
+    animation: neon-glow 2s linear infinite;
+}
+
+@keyframes neon-glow {
+    0% {
+        box-shadow: 0 0 10px #ff00ff, 0 0 20px #ff00ff, 0 0 30px #ff00ff;
+    }
+
+    50% {
+        box-shadow: 0 0 20px #ff00ff, 0 0 40px #ff00ff, 0 0 60px #ff00ff;
+    }
+
+    100% {
+        box-shadow: 0 0 10px #ff00ff, 0 0 20px #ff00ff, 0 0 30px #ff00ff;
+    }
+} */
