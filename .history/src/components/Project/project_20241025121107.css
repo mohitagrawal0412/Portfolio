@@ -1,0 +1,75 @@
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+    background-color: black;
+}
+
+.project-card {
+    flex: 1 1 30%;
+    padding: 20px;
+    text-align: center;
+    max-width: 350px;
+    margin: 10px auto;
+    background-color: transparent;
+    /* Remove background */
+    box-shadow: none;
+    /* Remove shadow */
+}
+
+.macbook-frame {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.macbook-image {
+    width: 100%;
+    display: block;
+    /* Ensures the MacBook image is displayed */
+}
+
+.project-screenshot {
+    position: absolute;
+    top: 12.5%;
+    /* Adjust to position the image on the MacBook screen */
+    left: 13.5%;
+    /* Adjust left to fit screen accurately */
+    width: 70%;
+    /* Adjust width to match the screen */
+    height: 50%;
+    /* Adjust height to fit within the MacBook frame */
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+
+.project-details {
+    margin-top: 15px;
+}
+
+.project-details h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: white;
+    /* Ensures text contrast on black background */
+}
+
+.project-details p {
+    color: #aaa;
+    /* Light gray for readability */
+    font-size: 1em;
+    margin-bottom: 15px;
+}
+
+.project-details a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.project-details a:hover {
+    text-decoration: underline;
+}

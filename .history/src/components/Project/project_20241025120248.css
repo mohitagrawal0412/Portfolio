@@ -1,0 +1,64 @@
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+    background-color: black
+}
+
+.project-card {
+    flex: 1 1 30%;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    max-width: 350px;
+    margin: 10px auto;
+}
+
+.project-card:hover {
+    background-color: black;
+    color: white;
+}
+
+
+.macbook-image {
+    width: 100%;
+}
+
+.project-screenshot {
+    position: absolute;
+    top: 12.5%;
+    left: 14.5%;
+    width: 72%;
+    height: 65%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.project-details {
+    margin-top: 15px;
+}
+
+.project-details h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.project-details p {
+    color: #555;
+    font-size: 1em;
+    margin-bottom: 15px;
+}
+
+.project-details a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.project-details a:hover {
+    text-decoration: underline;
+}

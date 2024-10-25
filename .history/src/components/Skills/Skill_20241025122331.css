@@ -1,0 +1,125 @@
+/* src/components/Skill/Skill.css */
+
+/* Import Montserrat font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,700;1,200;1,700&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+}
+
+.seccion {
+    text-transform: uppercase;
+    transform: rotate(270deg);
+    transform-origin: left top;
+    top: 50%;
+    left: -1rem;
+    position: absolute;
+    font-size: 0.8rem;
+}
+
+@media (max-width: 768px) {
+    .seccion {
+        transform: rotate(0deg);
+        transform-origin: center;
+        top: auto;
+        left: auto;
+        margin-top: 10px;
+    }
+}
+
+/* Circle Icon Styling */
+.circle-icon {
+    color: #000;
+    width: 0.5rem;
+    height: 0.5rem;
+    position: absolute;
+    top: 0.5rem;
+    left: -0.75rem;
+}
+
+/* Technology Item Styling */
+.tech-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+.tech-item img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+/* Responsive adjustments for TechnologySection */
+@media (max-width: 768px) {
+    .ml-6 {
+        margin-left: 1.5rem;
+    }
+
+    .grid-cols-2 {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .grid-cols-3 {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+    .grid-cols-4 {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+
+    .w-24 {
+        width: 6rem;
+        height: 6rem;
+    }
+}
+
+/* Skill.css */
+
+.gradient-line {
+    position: absolute;
+    height: 100%;
+    top: 2rem;
+    /* Adjust as needed */
+    left: .1rem;
+    /* Adjust to control the line's position */
+    width: 2px;
+    /* Width of the line */
+    background-image: linear-gradient(to bottom, white 50%, #8a3ffc, #ff007f);
+    /* Gradient colors */
+    z-index: 10;
+}
+
+.circle-icon {
+    position: absolute;
+    top: 0;
+    left: -1rem;
+    /* Adjust the icon position */
+}
+
+.seccion {
+    position: absolute;
+    left: -5rem;
+    /* Adjust as needed */
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+}
+
+/* Skill Bar Container Styling */
+.skill-bar-container {
+    position: relative;
+    overflow: hidden;
+}
+
+/* Skill Bar Styling with Animation */
+.skill-bar {
+    height: 100%;
+    border-radius: inherit;
+    transition: width 1.5s ease, box-shadow 0.3s ease;
+    /* Add shadow transition */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    /* Subtle shadow effect */
+}
